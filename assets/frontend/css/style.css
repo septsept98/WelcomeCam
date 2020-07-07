@@ -1,0 +1,19 @@
+.link a {
+	color:white;
+}
+
+@media screen and (max-width: 480px) {
+	.col-3{
+	  flex: 0 0 50% !important;
+	  max-width: 50% !important;
+	}
+	.card-body{
+		padding: 0.75rem !important;
+	}
+	.card-body .card-title{
+		font-size: 16px;
+	}
+	.card-body h6, .card-text p{
+		font-size: 13px;
+	}
+}
